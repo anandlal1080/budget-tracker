@@ -6,12 +6,11 @@ const iconFiles = iconSizes.map((size) => `/icons/icon-${size}x${size}.png`);
 
 const staticFilesToPreCache = [
   "/",
+  "/index.html",
   "/index.js",
   "/favicon.ico",
   "/manifest.webmanifest",
-  "/db.js",
   "/styles.css",
-  "/manifest.webmanifest",
 ].concat(iconFiles);
 
 // install
